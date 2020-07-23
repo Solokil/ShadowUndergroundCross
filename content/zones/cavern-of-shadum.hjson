@@ -1,0 +1,59 @@
+name: Cavern of Shadum
+description: An underground place full of shadum technologies and danger, the first map crossover with ShadowMod and UndergroundAdventure.
+loadout: basicNucleus
+startingItems: [
+  copper/1200
+  lead/500
+  graphite/300
+  underground-adventure-fiorite/1000
+  shadow-mod-shadum/400
+]
+conditionWave: 20
+launchPeriod: 10
+
+configureObjective: { 
+   type: ZoneWave 
+// "Launched" for attack maps
+   zone: cavern-of-shadum
+   wave: 25
+}
+
+
+requirements: [
+  {
+    type: ZoneWave
+    zone: shadow-mod-spore-hills
+    wave: 30
+  }  
+  {
+    type: ZoneWave
+    zone: undergground-adventure-underground-enter
+    wave: 30
+  }
+  {
+    type: Unlock
+    block: shadow-mod-shad1-drill
+  }
+  {
+    type: Unlock
+    block: underground-adventure-mini-titanium-drill
+  }
+]
+resources: [
+  copper
+  // my first mineral
+  underground-adventure-iron
+  lead
+  coal
+  sand
+  scrap
+  titanium
+  thorium
+  example-mod-gold-powder
+  example-mod-silver
+  underground-adventure-fiorite
+  underground-adventure-jiliorite
+  shadow-mod-shadum
+  shadow-mod-void
+  
+]

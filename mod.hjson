@@ -1,0 +1,6 @@
+name: "shadow-underground-cross"
+displayName: "[purple]Shadum[red] Underground[] cross" //what displays in the mod selection menu
+author: "Solokil"
+description: "A mod that contains a map and cross over maps from Solokil/UndergroundAdventure and Pietro303HD/ShadowMod"
+version: "1.0"
+minGameVersion: "103"
