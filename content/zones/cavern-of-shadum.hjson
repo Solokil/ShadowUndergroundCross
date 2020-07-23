@@ -27,7 +27,7 @@ requirements: [
   }  
   {
     type: ZoneWave
-    zone: undergground-adventure-underground-enter
+    zone: underground-adventure-underground-enter
     wave: 30
   }
   {
