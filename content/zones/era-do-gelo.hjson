@@ -24,7 +24,7 @@ configureObjective: {
 requirements: [
   {
     type: Launched
-    zone: shadow-mod-distant-base
+    zone: shadow-mod-dis-base
   }  
   {
     type: ZoneWave
