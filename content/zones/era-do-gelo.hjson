@@ -2,11 +2,13 @@ name: Age of ice
 description: Fear the enemies coming each wave stronger than before!
 loadout: basicNucleus
 startingItems: [
-  copper/400
-  lead/400
-  graphite/300
-  silicon/400
-  underground-adventure-fiorite/400
+  copper/1000
+  lead/1000
+  graphite/400
+  silicon/500
+  underground-adventure-fiorite/1000
+  underground-adventure-jiliorite/1000
+  metaglass/100
   shadow-mod-shadum/500
   
 ]
