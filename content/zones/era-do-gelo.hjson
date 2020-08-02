@@ -1,0 +1,60 @@
+name: Age of ice
+description: Fear the enemies coming each wave stronger than before!
+loadout: basicNucleus
+startingItems: [
+  copper/400
+  lead/400
+  graphite/300
+  silicon/400
+  underground-adventure-fiorite/400
+  shadow-mod-shadum/500
+  
+]
+conditionWave: 20
+launchPeriod: 10
+
+configureObjective: { 
+   type: ZoneWave 
+// "Launched" for attack maps
+   zone: era-do-gelo
+   wave: 25
+}
+
+
+requirements: [
+  {
+    type: Launched
+    zone: shadow-mod-distant-base
+  }  
+  {
+    type: ZoneWave
+    zone: cavern-of-shadum
+    wave: 210
+  }
+  {
+    type: Unlock
+    block: shadow-mod-void-drill
+  }
+  {
+    type: Unlock
+    block: underground-adventure-tier2
+  }
+]
+resources: [
+  copper
+  // my first mineral
+  underground-adventure-iron
+  lead
+  coal
+  sand
+  scrap
+  titanium
+  thorium
+  example-mod-gold-powder
+  example-mod-silver
+  underground-adventure-fiorite
+  underground-adventure-jiliorite
+  shadow-mod-shadum
+  shadow-mod-void
+  
+]
